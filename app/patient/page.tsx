@@ -30,7 +30,7 @@ export default async function PatientHomePage() {
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600">Our Priority</span>
             </>
           }
-          subtitle="Connect with experienced healthcare professionals from the comfort of your home. Get expert medical consultations through our secure telemedicine platform."
+          subtitle="Testing."
           callToAction={{
             text: "Start Self Assessment",
             href: user ? "/consultations" : "/login",
