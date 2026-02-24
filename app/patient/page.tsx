@@ -19,7 +19,7 @@ export default async function PatientHomePage() {
       <main className="flex-1">
         <HeroSection
           logo={{
-            url: "/Images/vera_logo.png",
+            url: "/vera_logo.png",
             alt: "Vera Logo",
             text: "Vera"
           }}
