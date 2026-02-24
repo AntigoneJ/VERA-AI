@@ -73,13 +73,13 @@ export default function SeverityDisplay({ responses, severityLevel, showDetails 
                         <p className="text-sm text-slate-700 flex-1 leading-relaxed">
                           {selectedOption.label}
                         </p>
-                        <span className={`flex-shrink-0 px-3 py-1.5 rounded-md text-xs font-semibold ${
+                          <span className={`flex-shrink-0 px-3 py-1.5 rounded-md text-xs font-semibold ${
                           selectedOption.weight === 1 ? 'bg-green-100 text-green-800 border border-green-200' :
-                          selectedOption.weight === 2 ? 'bg-yellow-100 text-yellow-800 border border-yellow-200' :
-                          'bg-red-100 text-red-800 border border-red-200'
-                        }`}>
+                            selectedOption.weight === 2 ? 'bg-yellow-100 text-yellow-800 border border-yellow-200' :
+                            'bg-red-100 text-red-800 border border-red-200'
+                          }`}>
                           {selectedOption.weight === 1 ? 'Low' : selectedOption.weight === 2 ? 'Moderate' : 'Severe'}
-                        </span>
+                          </span>
                       </div>
                     ) : (
                       <div className="bg-slate-50 rounded-lg p-4 border border-slate-200">
