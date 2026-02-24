@@ -19,7 +19,7 @@ export default async function PatientHomePage() {
       <main className="flex-1">
         <HeroSection
           logo={{
-            url: "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?w=100&h=100&fit=crop&q=80",
+            url: "/Images/vera_logo.png",
             alt: "Vera Logo",
             text: "Vera"
           }}
@@ -30,7 +30,7 @@ export default async function PatientHomePage() {
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600">Our Priority</span>
             </>
           }
-          subtitle="Testing."
+          subtitle="Describe your symptoms and get a preliminary feedback from our AI-algorithm."
           callToAction={{
             text: "Start Self Assessment",
             href: user ? "/consultations" : "/login",
