@@ -101,7 +101,7 @@ export default async function PatientHomePage() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 {/* Step 1 */}
                 <div className="flex items-start space-x-4 p-6 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow">
-                  <div className="flex-shrink-0 w-14 h-14 rounded-2xl bg-gradient-to-br from-blue-500 to-blue-600 text-white flex items-center justify-center font-bold text-xl shadow-lg">
+                  <div className="flex-shrink-0 w-14 h-14 rounded-2xl bg-gradient-to-br from-[#0A3747] to-[#051d26] text-white flex items-center justify-center font-bold text-xl shadow-lg">
                     1
                   </div>
                   <div>
@@ -109,12 +109,10 @@ export default async function PatientHomePage() {
                     <p className="text-slate-600 leading-relaxed">Sign up and set up your profile in just a few minutes</p>
                   </div>
                 </div>
-
-                
                 {/* Step 2: Check-in with VERA */}
                 <div className="flex items-start space-x-4 p-6 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow">
                   {/* The Red/Rose Box - Signals Health Action/Symptoms */}
-                  <div className="flex-shrink-0 w-14 h-14 rounded-2xl bg-gradient-to-br from-rose-500 to-rose-600 text-white flex items-center justify-center font-bold text-xl shadow-lg">
+                  <div className="flex-shrink-0 w-14 h-14 rounded-2xl bg-gradient-to-br from-[#FF7E66] to-[#ff5f42] text-white flex items-center justify-center font-bold text-xl shadow-lg">
                     2
                   </div>
                   <div>
@@ -127,7 +125,7 @@ export default async function PatientHomePage() {
                {/* Step 3: Team Sync */}
               <div className="flex items-start space-x-4 p-6 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow">
                 {/* The Yellow/Amber Box - Signals Connection & Information Transfer */}
-                <div className="flex-shrink-0 w-14 h-14 rounded-2xl bg-gradient-to-br from-amber-400 to-amber-500 text-white flex items-center justify-center font-bold text-xl shadow-lg">
+                <div className="flex-shrink-0 w-14 h-14 rounded-2xl bg-gradient-to-br from-[#FFD166] to-[#ffc133] text-white flex items-center justify-center font-bold text-xl shadow-lg">
                   3
                 </div>
                 <div>
@@ -139,7 +137,7 @@ export default async function PatientHomePage() {
                {/* Step 4: Doctor Feedback */}
               <div className="flex items-start space-x-4 p-6 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow">
                 {/* The Green/Emerald Box - Signals Resolution, Safety, and Care Received */}
-                <div className="flex-shrink-0 w-14 h-14 rounded-2xl bg-gradient-to-br from-emerald-500 to-emerald-600 text-white flex items-center justify-center font-bold text-xl shadow-lg">
+                <div className="flex-shrink-0 w-14 h-14 rounded-2xl bg-gradient-to-br from-[#2BC2A4] to-[#229b83] text-white flex items-center justify-center font-bold text-xl shadow-lg">
                   4
                 </div>
                 <div>
