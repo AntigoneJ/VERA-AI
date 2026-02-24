@@ -21,7 +21,7 @@ export default async function PatientHomePage() {
           title={
             <>
               Your Health, <br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600">Our Priority</span>
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#FF7E66] to-[#ff5f42]">Our Priority</span>
             </>
           }
           subtitle="Report your symptoms in minutes.VERA transforms your answers into real-time clinical triage for your oncology team."
