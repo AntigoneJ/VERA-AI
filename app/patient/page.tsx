@@ -106,42 +106,47 @@ export default async function PatientHomePage() {
                   </div>
                   <div>
                     <h3 className="text-xl font-semibold text-slate-900 mb-3">Create Your Account</h3>
-                    <p className="text-slate-600 leading-relaxed">Sign up and complete your medical profile in just a few minutes</p>
+                    <p className="text-slate-600 leading-relaxed">Sign up and set up your profile in just a few minutes</p>
                   </div>
                 </div>
 
-                {/* Step 2 */}
+                
+                {/* Step 2: Check-in with VERA */}
                 <div className="flex items-start space-x-4 p-6 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow">
-                  <div className="flex-shrink-0 w-14 h-14 rounded-2xl bg-gradient-to-br from-emerald-500 to-emerald-600 text-white flex items-center justify-center font-bold text-xl shadow-lg">
+                  {/* The Red/Rose Box - Signals Health Action/Symptoms */}
+                  <div className="flex-shrink-0 w-14 h-14 rounded-2xl bg-gradient-to-br from-rose-500 to-rose-600 text-white flex items-center justify-center font-bold text-xl shadow-lg">
                     2
                   </div>
                   <div>
-                    <h3 className="text-xl font-semibold text-slate-900 mb-3">Request Consultation</h3>
-                    <p className="text-slate-600 leading-relaxed">Describe your symptoms and health concerns in detail</p>
+                    <h3 className="text-xl font-semibold text-slate-900 mb-3">Check-in with VERA</h3>
+                    <p className="text-slate-600 leading-relaxed">Report your weekly symptoms and receive immediate triage from VERA.</p>
                   </div>
                 </div>
+                
 
-                {/* Step 3 */}
-                <div className="flex items-start space-x-4 p-6 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow">
-                  <div className="flex-shrink-0 w-14 h-14 rounded-2xl bg-gradient-to-br from-indigo-500 to-indigo-600 text-white flex items-center justify-center font-bold text-xl shadow-lg">
-                    3
-                  </div>
-                  <div>
-                    <h3 className="text-xl font-semibold text-slate-900 mb-3">Connect with Doctor</h3>
-                    <p className="text-slate-600 leading-relaxed">Get matched with a qualified doctor who will review your case</p>
-                  </div>
+               {/* Step 3: Team Sync */}
+              <div className="flex items-start space-x-4 p-6 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow">
+                {/* The Yellow/Amber Box - Signals Connection & Information Transfer */}
+                <div className="flex-shrink-0 w-14 h-14 rounded-2xl bg-gradient-to-br from-amber-400 to-amber-500 text-white flex items-center justify-center font-bold text-xl shadow-lg">
+                  3
                 </div>
+                <div>
+                  <h3 className="text-xl font-semibold text-slate-900 mb-3">Team Sync</h3>
+                  <p className="text-slate-600 leading-relaxed">Smart alerts are sent to your oncology team based on your triage results.</p>
+                </div>
+              </div>
 
-                {/* Step 4 */}
-                <div className="flex items-start space-x-4 p-6 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow">
-                  <div className="flex-shrink-0 w-14 h-14 rounded-2xl bg-gradient-to-br from-purple-500 to-purple-600 text-white flex items-center justify-center font-bold text-xl shadow-lg">
-                    4
-                  </div>
-                  <div>
-                    <h3 className="text-xl font-semibold text-slate-900 mb-3">Receive Care</h3>
-                    <p className="text-slate-600 leading-relaxed">Get expert medical advice and comprehensive follow-up care</p>
-                  </div>
+               {/* Step 4: Doctor Feedback */}
+              <div className="flex items-start space-x-4 p-6 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow">
+                {/* The Green/Emerald Box - Signals Resolution, Safety, and Care Received */}
+                <div className="flex-shrink-0 w-14 h-14 rounded-2xl bg-gradient-to-br from-emerald-500 to-emerald-600 text-white flex items-center justify-center font-bold text-xl shadow-lg">
+                  4
                 </div>
+                <div>
+                  <h3 className="text-xl font-semibold text-slate-900 mb-3">Doctor Feedback</h3>
+                  <p className="text-slate-600 leading-relaxed">Receive direct feedback and therapy adjustments from your oncology team.</p>
+                </div>
+              </div>
               </div>
             </div>
           </div>
