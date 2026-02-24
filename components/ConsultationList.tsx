@@ -70,7 +70,7 @@ export default function ConsultationList({ user }: ConsultationListProps) {
           },
           body: JSON.stringify({
             title: 'Severity Assessment',
-            description: 'Patient severity assessment consultation',
+            description: 'Patient severity assessment by VERA',
             form_responses: responses,
             severity_level: severity,
           }),
