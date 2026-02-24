@@ -110,7 +110,7 @@ export default function LoginPage() {
               <p className="text-sm text-slate-600 text-center">
                 Demo accounts: <br />
                 <span className="font-mono text-xs">
-                  To access the oncology team/patient viewpoint enter the following : login = doctor1/patient1, password = password123
+                  patient1 / doctor1 (password: password123)
                 </span>
               </p>
             </div>
