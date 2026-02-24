@@ -136,7 +136,7 @@ export default async function PatientHomePage() {
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold text-slate-900 mb-3">Clinical review & escalation</h3>
-                  <p className="text-slate-600 leading-relaxed">Your oncology team is notified of your triage status.High-priority alerts are flagged for urgent clinical review and follow-up when needed.</p>
+                  <p className="text-slate-600 leading-relaxed">Your oncology team is notified of your triage status. High-priority alerts are flagged for urgent clinical review and follow-up when needed.</p>
                 </div>
               </div>
               </div>

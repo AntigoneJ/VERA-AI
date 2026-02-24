@@ -58,7 +58,7 @@ export default function Header({ user }: HeaderProps) {
               <Link href="/login" className="text-xs md:text-sm font-medium text-slate-700 hover:text-blue-600 transition-colors px-2 md:px-3 py-2 rounded-lg hover:bg-blue-50">
                 Login
               </Link>
-              <Button asChild size="sm" className="bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white shadow-lg hover:shadow-xl transition-all text-xs md:text-sm">
+              <Button asChild size="sm" className="bg-gradient-to-r from-[#FF7E66] to-[#ff5f42] hover:opacity-90 text-white shadow-lg hover:shadow-xl transition-all text-xs md:text-sm border-none">
                 <Link href="/login">Get Started</Link>
               </Button>
             </>
