@@ -24,7 +24,7 @@ export default async function PatientHomePage() {
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#FF7E66] to-[#ff5f42]">Our Priority</span>
             </>
           }
-          subtitle="Report your symptoms in minutes.VERA transforms your answers into real-time clinical triage for your oncology team."
+          subtitle="Complete your weekly check-in. VERA converts your responses into structured clinical triage for your oncology team."
           callToAction={{
             text: "Report your weekly symptoms",
             href: user ? "/consultations" : "/login",
@@ -52,7 +52,7 @@ export default async function PatientHomePage() {
                   </svg>
                 </div>
                 <h3 className="text-xl font-semibold text-slate-900 mb-3">Structured symptoms monitoring</h3>
-                <p className="text-slate-600 leading-relaxed">Validated oncology questionnaires, designed for weekly symptom tracking in under 3 minutes</p>
+                <p className="text-slate-600 leading-relaxed">Validated oncology questionnaires, designed for weekly symptom tracking.</p>
               </div>
 
               {/* Feature 2 */}
@@ -63,7 +63,7 @@ export default async function PatientHomePage() {
                   </svg>
                 </div>
                 <h3 className="text-xl font-semibold text-slate-900 mb-3">Secure & Private</h3>
-                <p className="text-slate-600 leading-relaxed">Encrypted storage and secure data handling aligned with healthcare standards</p>
+                <p className="text-slate-600 leading-relaxed">Encrypted storage and secure data handling aligned with healthcare standards.</p>
               </div>
 
               {/* Feature 3 */}
@@ -88,7 +88,7 @@ export default async function PatientHomePage() {
                 How It Works
               </h2>
               <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-                Get started with your healthcare journey in just four simple steps
+                Get started with your journey in just four simple steps
               </p>
             </div>
             <div className="max-w-4xl mx-auto">
@@ -110,8 +110,8 @@ export default async function PatientHomePage() {
                     2
                   </div>
                   <div>
-                    <h3 className="text-xl font-semibold text-slate-900 mb-3">Check-in with VERA</h3>
-                    <p className="text-slate-600 leading-relaxed">Report your weekly symptoms and receive immediate triage from VERA.</p>
+                    <h3 className="text-xl font-semibold text-slate-900 mb-3">Weekly symptom check-in</h3>
+                    <p className="text-slate-600 leading-relaxed">Complete a short, structured questionnaire.</p>
                   </div>
                 </div>
                 
@@ -123,8 +123,8 @@ export default async function PatientHomePage() {
                   3
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold text-slate-900 mb-3">Team Sync</h3>
-                  <p className="text-slate-600 leading-relaxed">Smart alerts are sent to your oncology team based on your triage results.</p>
+                  <h3 className="text-xl font-semibold text-slate-900 mb-3">AI triage assessment</h3>
+                  <p className="text-slate-600 leading-relaxed">VERA analyzes your responses using clinically validated thresholds and assigns a triage level (green, yellow, or red).</p>
                 </div>
               </div>
 
@@ -135,8 +135,8 @@ export default async function PatientHomePage() {
                   4
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold text-slate-900 mb-3">Doctor Feedback</h3>
-                  <p className="text-slate-600 leading-relaxed">Receive direct feedback and therapy adjustments from your oncology team.</p>
+                  <h3 className="text-xl font-semibold text-slate-900 mb-3">Clinical review & escalation</h3>
+                  <p className="text-slate-600 leading-relaxed">Your oncology team is notified of your triage status.High-priority alerts are flagged for urgent clinical review and follow-up when needed.</p>
                 </div>
               </div>
               </div>
