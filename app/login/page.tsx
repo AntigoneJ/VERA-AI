@@ -55,7 +55,7 @@ export default function LoginPage() {
           <h1 className="text-4xl font-bold text-slate-900 mb-2">
             Vera
           </h1>
-          <p className="text-slate-600">Healthcare consultation platform</p>
+          <p className="text-slate-600">AI-powered Oncology triage and remote symptome monitoring</p>
         </div>
 
         <Card className="shadow-lg">
@@ -106,7 +106,7 @@ export default function LoginPage() {
                 {isLoading ? 'Signing in...' : 'Sign in'}
               </Button>
             </form>
-            
+
           </CardContent>
         </Card>
 
