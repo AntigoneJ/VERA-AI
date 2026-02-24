@@ -7,9 +7,10 @@ interface SeverityDisplayProps {
   responses: Record<string, number>;
   severityLevel: SeverityLevel;
   showDetails?: boolean;
+  userType?: 'patient' | 'doctor';
 }
 
-export default function SeverityDisplay({ responses, severityLevel, showDetails = true }: SeverityDisplayProps) {
+export default function SeverityDisplay({ responses, severityLevel, showDetails = true, userType = 'patient' }: SeverityDisplayProps) {
   const severityInfo = getSeverityDisplay(severityLevel);
   const severityResult = calculateSeverity(responses);
 
@@ -17,17 +18,22 @@ export default function SeverityDisplay({ responses, severityLevel, showDetails 
     <div className="space-y-6 py-2">
       {/* Overall Severity Card */}
       <Card className={`border-2 shadow-sm ${
-        severityLevel === 'green' ? 'border-green-500' :
-        severityLevel === 'yellow' ? 'border-yellow-500' :
-        'border-red-500'
+        userType === 'doctor' 
+          ? (severityLevel === 'green' ? 'border-green-500' :
+             severityLevel === 'yellow' ? 'border-yellow-500' : 'border-red-500')
+          : 'border-blue-500'
       }`}>
-        <CardHeader className={`${severityInfo.bgColor} px-6 py-5`}>
+        <CardHeader className={`${userType === 'doctor' ? severityInfo.bgColor : 'bg-blue-50'} px-6 py-5`}>
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-4">
-              <div className={`h-5 w-5 rounded-full ${severityInfo.color} flex-shrink-0`}></div>
+              <div className={`h-5 w-5 rounded-full ${userType === 'doctor' ? severityInfo.color : 'bg-blue-500'} flex-shrink-0`}></div>
               <div>
-                <CardTitle className={`${severityInfo.textColor} text-xl mb-1`}>{severityInfo.label}</CardTitle>
-                <CardDescription className="mt-1 text-sm">{severityInfo.description}</CardDescription>
+                <CardTitle className={`${userType === 'doctor' ? severityInfo.textColor : 'text-blue-900'} text-xl mb-1`}>
+                  {userType === 'doctor' ? severityInfo.label : 'Assessment Submitted'}
+                </CardTitle>
+                <CardDescription className="mt-1 text-sm">
+                  {userType === 'doctor' ? severityInfo.description : 'Your responses have been recorded and will be reviewed by your medical team.'}
+                </CardDescription>
               </div>
             </div>
             <div className="text-right ml-4">
