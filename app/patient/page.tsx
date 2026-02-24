@@ -18,12 +18,6 @@ export default async function PatientHomePage() {
       
       <main className="flex-1">
         <HeroSection
-          logo={{
-            url: "/vera_logo.png",
-            alt: "Vera Logo",
-            text: "Vera"
-          }}
-          slogan="HEALTHCARE AT YOUR FINGERTIPS"
           title={
             <>
               Your Health, <br />

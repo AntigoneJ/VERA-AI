@@ -115,7 +115,7 @@ const HeroSection = React.forwardRef<HTMLDivElement, HeroSectionProps>(
                     <motion.p className="mb-8 max-w-md text-base text-slate-600 leading-relaxed" variants={itemVariants}>
                         {subtitle}
                     </motion.p>
-                    <motion.a href={callToAction.href} className="inline-flex items-center px-6 py-3 text-base font-semibold text-white bg-[#2BC2A4] rounded-lg shadow-lg hover:bg-[#23a389] transition-all duration-300 hover:shadow-xl hover:scale-105" variants={itemVariants}>
+                    <motion.a href={callToAction.href} className="inline-flex items-center px-6 py-3 text-base font-semibold text-white bg-gradient-to-r from-blue-600 to-indigo-600 rounded-lg shadow-lg hover:from-blue-700 hover:to-indigo-700 transition-all duration-300 hover:shadow-xl hover:scale-105" variants={itemVariants}>
                         {callToAction.text}
                         <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
