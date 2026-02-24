@@ -31,9 +31,7 @@ export default function SeverityDisplay({ responses, severityLevel, showDetails 
               </div>
             </div>
             <div className="text-right ml-4">
-              <div className={`text-3xl font-bold ${severityInfo.textColor} mb-1`}>
-                {severityResult.percentage}%
-              </div>
+              
             </div>
           </div>
         </CardHeader>

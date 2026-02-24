@@ -30,9 +30,9 @@ export default async function PatientHomePage() {
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600">Our Priority</span>
             </>
           }
-          subtitle="Describe your symptoms and get a preliminary feedback from our AI-algorithm."
+          subtitle="Report your symptoms in minutes.VERA transforms your answers into real-time clinical triage for your oncology team."
           callToAction={{
-            text: "Start Self Assessment",
+            text: "Report your weekly symptoms",
             href: user ? "/consultations" : "/login",
           }}
           backgroundImage="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=900&auto=format&fit=crop&q=80"
@@ -43,10 +43,10 @@ export default async function PatientHomePage() {
           <div className="container mx-auto px-4">
             <div className="text-center mb-16">
               <h2 className="text-3xl font-bold text-slate-900 mb-4">
-                Why Choose Vera?
+                How VERA supports your treatment?
               </h2>
               <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-                Experience healthcare like never before with our comprehensive telemedicine platform
+                VERA provides continuous symptom monitoring designed specifically for patients undergoing cancer therapy.
               </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -57,8 +57,8 @@ export default async function PatientHomePage() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
                 </div>
-                <h3 className="text-xl font-semibold text-slate-900 mb-3">24/7 Availability</h3>
-                <p className="text-slate-600 leading-relaxed">Access healthcare professionals anytime, anywhere with our round-the-clock service</p>
+                <h3 className="text-xl font-semibold text-slate-900 mb-3">Structured symptoms monitoring</h3>
+                <p className="text-slate-600 leading-relaxed">Validated oncology questionnaires, designed for weekly symptom tracking in under 3 minutes</p>
               </div>
 
               {/* Feature 2 */}
@@ -69,7 +69,7 @@ export default async function PatientHomePage() {
                   </svg>
                 </div>
                 <h3 className="text-xl font-semibold text-slate-900 mb-3">Secure & Private</h3>
-                <p className="text-slate-600 leading-relaxed">Your health data is encrypted and protected with industry-leading security measures</p>
+                <p className="text-slate-600 leading-relaxed">Encrypted storage and secure data handling aligned with healthcare standards</p>
               </div>
 
               {/* Feature 3 */}
@@ -79,8 +79,8 @@ export default async function PatientHomePage() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
                   </svg>
                 </div>
-                <h3 className="text-xl font-semibold text-slate-900 mb-3">Expert Doctors</h3>
-                <p className="text-slate-600 leading-relaxed">Connect with qualified healthcare professionals who care about your wellbeing</p>
+                <h3 className="text-xl font-semibold text-slate-900 mb-3"> AI-Supported Clinical Triage </h3>
+                <p className="text-slate-600 leading-relaxed">Patient responses are analyzed using clinical thresholds. Oncology team is notified of the severity predicted. </p>
               </div>
             </div>
           </div>

@@ -38,7 +38,7 @@ export default function Header({ user }: HeaderProps) {
           />
           <div className="flex flex-col">
             <span className="text-lg md:text-xl font-bold text-slate-900 group-hover:text-blue-600 transition-colors">Vera</span>
-            <span className="hidden sm:block text-xs text-slate-500 -mt-1">Healthcare Platform</span>
+            <span className="hidden sm:block text-xs text-slate-500 -mt-1">AI-powered Oncology triage and remote symptom monitoring platform</span>
           </div>
         </Link>
 
